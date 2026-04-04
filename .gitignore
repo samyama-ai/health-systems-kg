@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+data/who_spar/*.csv
+data/who_nhwa/*.csv
+data/gavi/*.csv
+data/globalfund/*.csv
+data/ihme/*.csv
+*.sgsnap

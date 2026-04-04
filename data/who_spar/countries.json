@@ -1,0 +1,1400 @@
+[
+  {
+    "iso_code": "ABW",
+    "name": "Aruba",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "AFG",
+    "name": "Afghanistan",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "AGO",
+    "name": "Angola",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "AIA",
+    "name": "Anguilla",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ALB",
+    "name": "Albania",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "AND",
+    "name": "Andorra",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ARE",
+    "name": "United Arab Emirates",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ARG",
+    "name": "Argentina",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ARM",
+    "name": "Armenia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ASM",
+    "name": "American Samoa",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ATG",
+    "name": "Antigua and Barbuda",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "AUS",
+    "name": "Australia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "AUT",
+    "name": "Austria",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "AZE",
+    "name": "Azerbaijan",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BDI",
+    "name": "Burundi",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BEL",
+    "name": "Belgium",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BEN",
+    "name": "Benin",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BES",
+    "name": "Bonaire, Saint Eustatius and Saba",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BFA",
+    "name": "Burkina Faso",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BGD",
+    "name": "Bangladesh",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BGR",
+    "name": "Bulgaria",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BHR",
+    "name": "Bahrain",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BHS",
+    "name": "Bahamas",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BLR",
+    "name": "Belarus",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BLZ",
+    "name": "Belize",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BMU",
+    "name": "Bermuda",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BOL",
+    "name": "Bolivia (Plurinational State of)",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BRA",
+    "name": "Brazil",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BRB",
+    "name": "Barbados",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BRN",
+    "name": "Brunei Darussalam",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BTN",
+    "name": "Bhutan",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "BWA",
+    "name": "Botswana",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "CAF",
+    "name": "Central African Republic",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "CAN",
+    "name": "Canada",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "CHE",
+    "name": "Switzerland",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "CHI",
+    "name": "Channel islands",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "CHL",
+    "name": "Chile",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "CHN",
+    "name": "China",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "CIV",
+    "name": "Cote d'Ivoire",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "CMR",
+    "name": "Cameroon",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "COD",
+    "name": "Democratic Republic of the Congo",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "COG",
+    "name": "Congo",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "COK",
+    "name": "Cook Islands",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "COL",
+    "name": "Colombia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "COM",
+    "name": "Comoros",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "CPV",
+    "name": "Cabo Verde",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "CRI",
+    "name": "Costa Rica",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "CUB",
+    "name": "Cuba",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "CUW",
+    "name": "Cura\u00e7ao",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "CYM",
+    "name": "Cayman Islands",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "CYP",
+    "name": "Cyprus",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "CZE",
+    "name": "Czechia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "DEU",
+    "name": "Germany",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "DJI",
+    "name": "Djibouti",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "DMA",
+    "name": "Dominica",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "DNK",
+    "name": "Denmark",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "DOM",
+    "name": "Dominican Republic",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "DZA",
+    "name": "Algeria",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ECU",
+    "name": "Ecuador",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "EGY",
+    "name": "Egypt",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ERI",
+    "name": "Eritrea",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ESP",
+    "name": "Spain",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "EST",
+    "name": "Estonia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ETH",
+    "name": "Ethiopia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "FIN",
+    "name": "Finland",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "FJI",
+    "name": "Fiji",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "FLK",
+    "name": "Falkland Islands (Malvinas)",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "FRA",
+    "name": "France",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "FRO",
+    "name": "Faroe Islands",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "FSM",
+    "name": "Micronesia (Federated States of)",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GAB",
+    "name": "Gabon",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GBR",
+    "name": "United Kingdom of Great Britain and Northern Ireland",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GEO",
+    "name": "Georgia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GHA",
+    "name": "Ghana",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GIB",
+    "name": "Gibraltar",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GIN",
+    "name": "Guinea",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GLP",
+    "name": "Guadeloupe",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GMB",
+    "name": "Gambia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GNB",
+    "name": "Guinea-Bissau",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GNQ",
+    "name": "Equatorial Guinea",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GRC",
+    "name": "Greece",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GRD",
+    "name": "Grenada",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GRL",
+    "name": "Greenland",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GTM",
+    "name": "Guatemala",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GUF",
+    "name": "French Guiana",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GUM",
+    "name": "Guam",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "GUY",
+    "name": "Guyana",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "HKG",
+    "name": "China, Hong Kong Special Administrative Region",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "HND",
+    "name": "Honduras",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "HRV",
+    "name": "Croatia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "HTI",
+    "name": "Haiti",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "HUN",
+    "name": "Hungary",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "IDN",
+    "name": "Indonesia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "IMN",
+    "name": "Isle of Man",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "IND",
+    "name": "India",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "IRL",
+    "name": "Ireland",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "IRN",
+    "name": "Iran (Islamic Republic of)",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "IRQ",
+    "name": "Iraq",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ISL",
+    "name": "Iceland",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ISR",
+    "name": "Israel",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ITA",
+    "name": "Italy",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "JAM",
+    "name": "Jamaica",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "JOR",
+    "name": "Jordan",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "JPN",
+    "name": "Japan",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "KAZ",
+    "name": "Kazakhstan",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "KEN",
+    "name": "Kenya",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "KGZ",
+    "name": "Kyrgyzstan",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "KHM",
+    "name": "Cambodia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "KIR",
+    "name": "Kiribati",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "KNA",
+    "name": "Saint Kitts and Nevis",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "KOR",
+    "name": "Republic of Korea",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "KWT",
+    "name": "Kuwait",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "LAO",
+    "name": "Lao People's Democratic Republic",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "LBN",
+    "name": "Lebanon",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "LBR",
+    "name": "Liberia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "LBY",
+    "name": "Libya",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "LCA",
+    "name": "Saint Lucia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "LIE",
+    "name": "Liechtenstein",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "LKA",
+    "name": "Sri Lanka",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "LSO",
+    "name": "Lesotho",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "LTU",
+    "name": "Lithuania",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "LUX",
+    "name": "Luxembourg",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "LVA",
+    "name": "Latvia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MAC",
+    "name": "China, Macao Special Administrative Region",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MAR",
+    "name": "Morocco",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MCO",
+    "name": "Monaco",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MDA",
+    "name": "Republic of Moldova",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MDG",
+    "name": "Madagascar",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MDV",
+    "name": "Maldives",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ME1",
+    "name": "The former state union Serbia and Montenegro",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MEX",
+    "name": "Mexico",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MHL",
+    "name": "Marshall Islands",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MKD",
+    "name": "North Macedonia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MLI",
+    "name": "Mali",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MLT",
+    "name": "Malta",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MMR",
+    "name": "Myanmar",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MNE",
+    "name": "Montenegro",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MNG",
+    "name": "Mongolia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MNP",
+    "name": "Northern Mariana Islands",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MOZ",
+    "name": "Mozambique",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MRT",
+    "name": "Mauritania",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MSR",
+    "name": "Montserrat",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MTQ",
+    "name": "Martinique",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MUS",
+    "name": "Mauritius",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MWI",
+    "name": "Malawi",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MYS",
+    "name": "Malaysia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "MYT",
+    "name": "Mayotte",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "NAM",
+    "name": "Namibia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "NCL",
+    "name": "New Caledonia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "NER",
+    "name": "Niger",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "NGA",
+    "name": "Nigeria",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "NIC",
+    "name": "Nicaragua",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "NIU",
+    "name": "Niue",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "NLD",
+    "name": "Netherlands (Kingdom of the)",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "NOR",
+    "name": "Norway",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "NPL",
+    "name": "Nepal",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "NRU",
+    "name": "Nauru",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "NZL",
+    "name": "New Zealand",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "OMN",
+    "name": "Oman",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "PAK",
+    "name": "Pakistan",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "PAN",
+    "name": "Panama",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "PER",
+    "name": "Peru",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "PHL",
+    "name": "Philippines",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "PLW",
+    "name": "Palau",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "PNG",
+    "name": "Papua New Guinea",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "POL",
+    "name": "Poland",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "PRI",
+    "name": "Puerto Rico",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "PRK",
+    "name": "Democratic People's Republic of Korea",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "PRS",
+    "name": "Pristina",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "PRT",
+    "name": "Portugal",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "PRY",
+    "name": "Paraguay",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "PSE",
+    "name": "occupied Palestinian territory, including east Jerusalem",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "PYF",
+    "name": "French Polynesia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "QAT",
+    "name": "Qatar",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "REU",
+    "name": "Reunion",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ROU",
+    "name": "Romania",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "RUS",
+    "name": "Russian Federation",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "RWA",
+    "name": "Rwanda",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SAU",
+    "name": "Saudi Arabia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SDN",
+    "name": "Sudan",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SEN",
+    "name": "Senegal",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SGP",
+    "name": "Singapore",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SHN",
+    "name": "Saint Helena",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SLB",
+    "name": "Solomon Islands",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SLE",
+    "name": "Sierra Leone",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SLV",
+    "name": "El Salvador",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SMR",
+    "name": "San Marino",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SOM",
+    "name": "Somalia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SPM",
+    "name": "Saint Pierre and Miquelon",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SRB",
+    "name": "Serbia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SSD",
+    "name": "South Sudan",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "STP",
+    "name": "Sao Tome and Principe",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SUR",
+    "name": "Suriname",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SVK",
+    "name": "Slovakia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SVN",
+    "name": "Slovenia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SWE",
+    "name": "Sweden",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SWZ",
+    "name": "Eswatini",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SXM",
+    "name": "Sint Maarten (Dutch part)",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SYC",
+    "name": "Seychelles",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "SYR",
+    "name": "Syrian Arab Republic",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "TCA",
+    "name": "Turks and Caicos Islands",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "TCD",
+    "name": "Chad",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "TGO",
+    "name": "Togo",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "THA",
+    "name": "Thailand",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "TJK",
+    "name": "Tajikistan",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "TKL",
+    "name": "Tokelau",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "TKM",
+    "name": "Turkmenistan",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "TLS",
+    "name": "Timor-Leste",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "TON",
+    "name": "Tonga",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "TTO",
+    "name": "Trinidad and Tobago",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "TUN",
+    "name": "Tunisia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "TUR",
+    "name": "T\u00fcrkiye",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "TUV",
+    "name": "Tuvalu",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "TZA",
+    "name": "United Republic of Tanzania",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "UGA",
+    "name": "Uganda",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "UKR",
+    "name": "Ukraine",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "URY",
+    "name": "Uruguay",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "USA",
+    "name": "United States of America",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "UZB",
+    "name": "Uzbekistan",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "VCT",
+    "name": "Saint Vincent and the Grenadines",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "VEN",
+    "name": "Venezuela (Bolivarian Republic of)",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "VGB",
+    "name": "British Virgin Islands",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "VIR",
+    "name": "Virgin Islands (USA)",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "VNM",
+    "name": "Viet Nam",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "VUT",
+    "name": "Vanuatu",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "WLF",
+    "name": "Wallis and Futuna Islands",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "WSM",
+    "name": "Samoa",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "XKX",
+    "name": "Kosovo (in accordance with UN Security Council resolution 1244 (1999))",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "YEM",
+    "name": "Yemen",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ZAF",
+    "name": "South Africa",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ZMB",
+    "name": "Zambia",
+    "who_region": "",
+    "income_level": ""
+  },
+  {
+    "iso_code": "ZWE",
+    "name": "Zimbabwe",
+    "who_region": "",
+    "income_level": ""
+  }
+]

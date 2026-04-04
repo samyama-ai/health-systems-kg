@@ -1,0 +1,99 @@
+include_node_tools: true
+include_edge_tools: true
+include_algorithm_tools: true
+
+custom_tools:
+  - name: country_health_capacity
+    description: "IHR SPAR capacity scores for a country (all 13 capacities)"
+    cypher_template: >
+      MATCH (e:EmergencyResponse)-[:CAPACITY_FOR]->(c:Country {iso_code: '{country_code}'})
+      WHERE e.year = {year}
+      RETURN e.capacity_code, e.capacity_name, e.score
+      ORDER BY e.capacity_code
+    parameters:
+      - {name: country_code, type: str}
+      - {name: year, type: int, default: 2023}
+
+  - name: workforce_density
+    description: "Health workers per 10,000 population by profession"
+    cypher_template: >
+      MATCH (h:HealthWorkforce)-[:SERVES]->(c:Country {iso_code: '{country_code}'})
+      WHERE h.year = {year}
+      RETURN h.profession, h.count, h.density_per_10k
+      ORDER BY h.density_per_10k DESC
+    parameters:
+      - {name: country_code, type: str}
+      - {name: year, type: int, default: 2022}
+
+  - name: vaccine_supply_status
+    description: "GAVI vaccine supply chain for a country"
+    cypher_template: >
+      MATCH (s:SupplyChain)-[:SUPPLIES]->(c:Country {iso_code: '{country_code}'})
+      WHERE s.year = {year}
+      RETURN s.vaccine_name, s.doses_shipped, s.doses_used, s.wastage_pct
+      ORDER BY s.vaccine_name
+    parameters:
+      - {name: country_code, type: str}
+      - {name: year, type: int, default: 2023}
+
+  - name: funding_landscape
+    description: "All funding flows to a country (Global Fund + IHME)"
+    cypher_template: >
+      MATCH (f:FundingFlow)-[:FUNDED_BY]->(c:Country {iso_code: '{country_code}'})
+      WHERE f.year = {year}
+      RETURN f.donor, f.disease_component, f.amount_usd, f.indicator_name, f.value
+      ORDER BY f.amount_usd DESC
+    parameters:
+      - {name: country_code, type: str}
+      - {name: year, type: int, default: 2023}
+
+  - name: emergency_preparedness_ranking
+    description: "Countries ranked by average SPAR score"
+    cypher_template: >
+      MATCH (e:EmergencyResponse)-[:CAPACITY_FOR]->(c:Country)
+      WHERE e.year = {year}
+      WITH c, avg(e.score) AS avg_score, count(e) AS capacities
+      RETURN c.name, c.iso_code, round(avg_score) AS avg_spar, capacities
+      ORDER BY avg_score DESC LIMIT {limit}
+    parameters:
+      - {name: year, type: int, default: 2023}
+      - {name: limit, type: int, default: 20}
+
+  - name: capacity_gap_analysis
+    description: "Countries with specific IHR capacity below threshold"
+    cypher_template: >
+      MATCH (e:EmergencyResponse)-[:CAPACITY_FOR]->(c:Country)
+      WHERE e.capacity_code = '{capacity_code}' AND e.year = {year} AND e.score < {threshold}
+      RETURN c.name, c.iso_code, e.capacity_name, e.score
+      ORDER BY e.score ASC LIMIT {limit}
+    parameters:
+      - {name: capacity_code, type: str, default: "C6", description: "Capacity code (C1-C13)"}
+      - {name: year, type: int, default: 2023}
+      - {name: threshold, type: int, default: 40}
+      - {name: limit, type: int, default: 30}
+
+  - name: health_expenditure_comparison
+    description: "Compare health expenditure across countries"
+    cypher_template: >
+      MATCH (f:FundingFlow)-[:FUNDED_BY]->(c:Country)
+      WHERE f.donor = 'IHME' AND f.indicator = 'che_pc_usd' AND f.year = {year}
+      RETURN c.name, f.value AS expenditure_per_capita
+      ORDER BY f.value DESC LIMIT {limit}
+    parameters:
+      - {name: year, type: int, default: 2021}
+      - {name: limit, type: int, default: 20}
+
+  - name: cross_kg_outbreak_capacity
+    description: "Cross-KG: correlate outbreak severity with IHR capacity (requires surveillance-kg in same tenant)"
+    cypher_template: >
+      MATCH (e:EmergencyResponse)-[:CAPACITY_FOR]->(c:Country {iso_code: '{country_code}'})
+      WHERE e.year = {year}
+      WITH c, avg(e.score) AS avg_spar
+      MATCH (c)-[:REPORTED]->(dr:DiseaseReport)-[:REPORT_OF]->(d:Disease)
+      WHERE dr.year = {year}
+      RETURN c.name, avg_spar, d.name AS disease, dr.value AS cases
+      ORDER BY dr.value DESC LIMIT {limit}
+    parameters:
+      - {name: country_code, type: str}
+      - {name: year, type: int, default: 2023}
+      - {name: limit, type: int, default: 10}
