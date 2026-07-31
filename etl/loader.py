@@ -18,8 +18,12 @@ from etl.helpers import Registry
 
 ALL_PHASES = ["spar", "nhwa", "gavi", "globalfund", "ihme"]
 
+# Default tenant/graph. Matches the published snapshot's tenant and the MCP
+# server's --tenant default, so build-from-source and snapshot agree.
+GRAPH = "health-systems"
 
-def _run_phase(phase: str, client, data_dir: str, registry: Registry, *, tenant: str = "default") -> dict:
+
+def _run_phase(phase: str, client, data_dir: str, registry: Registry, *, tenant: str = GRAPH) -> dict:
     if phase == "spar":
         from etl.spar_loader import load_spar
         return load_spar(client, data_dir, registry, tenant)
@@ -43,7 +47,7 @@ def load_health_systems(
     client,
     data_dir: str = "data",
     phases: list[str] | None = None,
-    tenant: str = "default",
+    tenant: str = GRAPH,
 ) -> dict:
     if phases is None:
         phases = ALL_PHASES
@@ -91,7 +95,7 @@ def main():
     parser.add_argument("--data-dir", default="data")
     parser.add_argument("--phases", nargs="*", default=None, help=f"Choices: {ALL_PHASES}")
     parser.add_argument("--url", default=None, help="Remote Samyama server URL")
-    parser.add_argument("--tenant", default="default")
+    parser.add_argument("--tenant", default=GRAPH)
     args = parser.parse_args()
 
     from samyama import SamyamaClient

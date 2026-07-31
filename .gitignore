@@ -8,3 +8,5 @@ data/gavi/*.csv
 data/globalfund/*.csv
 data/ihme/*.csv
 *.sgsnap
+.venv/
+venv/
