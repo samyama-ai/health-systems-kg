@@ -1,5 +1,5 @@
 ---
-license: unknown
+license: other
 pretty_name: Health Systems Knowledge Graph
 tags:
   - knowledge-graph
@@ -25,8 +25,11 @@ whether the data fits a question.
 
 ## Provenance and licence
 
-_Not recorded in this repository's README._ The upstream source and its licence
-must be stated before this dataset is redistributed or quoted.
+Apache 2.0 covers the loader. WHO SPAR and NHWA are **CC BY-NC-SA 3.0 IGO**; IHME's own
+agreement is more restrictive and may not permit redistribution at all. Gavi and Global
+Fund terms are unverified. **Ship the loader, not the graph.** See
+[`DATA-LICENSES.md`](DATA-LICENSES.md).
+
 
 ## Reproducing
 
