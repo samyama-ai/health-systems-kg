@@ -64,7 +64,11 @@ def download_spar(data_dir: str | Path) -> dict:
         code = c.get("Code", "").strip()
         name = c.get("Title", "").strip()
         if code and name and len(code) == 3:
-            countries.append({"iso_code": code, "name": name, "who_region": "", "income_level": ""})
+            # No who_region/income_level: the GHO country dimension does not
+            # carry them, and an empty placeholder column is indistinguishable
+            # from real data downstream (samyama-graph#1815). When a source for
+            # them is added, set the keys here and the loader will pick them up.
+            countries.append({"iso_code": code, "name": name})
     with open(out_path / "countries.json", "w") as f:
         json.dump(countries, f, indent=2)
     print(f"  {len(countries)} countries")

@@ -58,9 +58,19 @@ def load_spar(
             props = {
                 "iso_code": code,
                 "name": name,
-                "who_region": c.get("who_region", ""),
-                "income_level": c.get("income_level", ""),
             }
+            # Only write a column we have a value for. WHO's GHO country
+            # dimension carries neither region nor income level, so
+            # countries.json holds 233 entries with 0 non-empty values for
+            # both; writing them anyway put `who_region` and `income_level`
+            # on all 233 Country nodes in the published snapshot, non-empty
+            # on none. That is worse than an absent column:
+            # `exists(c.who_region)` answers true and grouping by region
+            # yields one empty bucket (samyama-graph#1815).
+            for key in ("who_region", "income_level"):
+                value = str(c.get(key) or "").strip()
+                if value:
+                    props[key] = value
             batch.append(("Country", props))
             if len(batch) >= 50:
                 batch_create_nodes(client, batch, tenant)

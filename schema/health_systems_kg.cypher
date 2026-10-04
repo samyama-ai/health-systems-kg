@@ -14,7 +14,11 @@ CREATE INDEX ON :FundingFlow(id);
 CREATE INDEX ON :EmergencyResponse(id);
 
 // --- Node Labels ---
-// Country:            iso_code (ISO 3166-1 alpha-3), name, who_region, income_level
+// Country:            iso_code (ISO 3166-1 alpha-3), name
+//                     (who_region/income_level are written only when the
+//                      source supplies them; WHO's GHO country dimension does
+//                      not, so today no Country node carries either --
+//                      samyama-graph#1815)
 // HealthFacility:     id (HF-{iso}-{type}-{year}), name, type, country_code, year
 // HealthWorkforce:    id (HW-{iso}-{profession}-{year}), profession, count, density_per_10k, country_code, year
 // SupplyChain:        id (SC-{iso}-{vaccine}-{year}), vaccine_name, doses_shipped, doses_used, wastage_pct, country_code, year
